@@ -17,7 +17,6 @@ Es una página personal, sencilla y que cumple con lo requerido y considerando l
 
 ## Contact me
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ElSinMetodos)
 [![Gmail](https://img.shields.io/badge/Gmail-DB4437?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eg.rubenaragon@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-833ab4?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ruhen_ar/)
 
