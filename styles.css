@@ -176,7 +176,7 @@ strong p {
   .container {
     padding: 15px;
     width: 70%;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
