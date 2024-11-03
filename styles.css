@@ -80,7 +80,7 @@ p {
 }
 
 img {
-  width: 400px;
+  width: 100%;
 }
 
 .info {
@@ -160,7 +160,7 @@ strong p {
     font-size: 1rem;
   }
   img {
-    width: 250px;
+    width: 80%;
   }
   .icons {
     margin-left: 15px;
@@ -201,7 +201,7 @@ strong p {
     margin:  25px;
   }
   img {
-    width: 200px;
+    width: 50%;
   }
   span {
     margin-top: 100px;
