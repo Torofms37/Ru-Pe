@@ -25,7 +25,7 @@ document.getElementById('portafolio').addEventListener('click', function() {
   const container = document.querySelector('.container');
   container.innerHTML = `
       <ul>
-          ${Array.from({length: 50}, (_, i) => `<li>Elemento ${i + 1}</li>`).join('')}
+          ${Array.from({length: 20}, (_, i) => `<li class="lista">Elemento ${i + 1}</li>`).join('')}
       </ul>
   `;
 });
