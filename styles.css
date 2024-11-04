@@ -72,6 +72,11 @@ p {
   background-color: rgba(195, 205, 217, 0.1);
   backdrop-filter: blur(2px); /* Ajusta el nivel de blur según tus necesidades */
   z-index: 1; /* Asegura que el blur está sobre otros elementos de fondo */
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
 }
 
 .container > * {
