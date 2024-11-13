@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Portafolio</title>
+    <style>
+        body {
+            background-color: blue;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .card-container {
+            display: none;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .card {
+            display: inline-block;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <button id="portfolioBtn">Portafolio</button>
+    </nav>
+    <section id="mainSection" class="container">
+        <h1>Bienvenido a mi Página</h1>
+        <p>Este es un texto introductorio.</p>
+        <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
+    </section>
+    <section id="portfolioSection" class="card-container">
+        <div class="card">
+            <h2>Proyecto 1</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 1">
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 2</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 2">
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 3</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 3">
+            <p>Descripción del proyecto 3.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 4</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 4">
+            <p>Descripción del proyecto 4.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+        <div class="card">
+            <h2>Proyecto 5</h2>
+            <img src="https://via.placeholder.com/100" alt="Proyecto 5">
+            <p>Descripción del proyecto 5.</p>
+        </div>
+    </section>
+    <script>
+        document.getElementById('portfolioBtn').addEventListener('click', function() {
+            const mainSection = document.getElementById('mainSection');
+            const portfolioSection = document.getElementById('portfolioSection');
+
+            if (mainSection.style.display !== 'none') {
+                mainSection.style.display = 'none';
+                portfolioSection.style.display = 'block';
+            } else {
+                mainSection.style.display = 'block';
+                portfolioSection.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

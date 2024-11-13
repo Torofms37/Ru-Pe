@@ -1,8 +1,9 @@
-:root { 
+:root {
   --primary: #c3cdd9;
   --secondary: #343f59;
   color: var(--primary);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: url("./img/bg-2.jpg");
   background-size: cover;
   background-position: center;
@@ -65,12 +66,14 @@ p {
   height: 60vh;
   border: var(--primary);
   border-style: solid;
-  border-width: 1px;  
+  border-width: 1px;
   padding: 40px;
   border-radius: 25px;
   box-shadow: 3px 5px 10px 1px rgba(115, 115, 115, 0.1);
   background-color: rgba(195, 205, 217, 0.1);
-  backdrop-filter: blur(2px); /* Ajusta el nivel de blur según tus necesidades */
+  backdrop-filter: blur(
+    2px
+  ); /* Ajusta el nivel de blur según tus necesidades */
   z-index: 1; /* Asegura que el blur está sobre otros elementos de fondo */
 }
 
@@ -81,10 +84,13 @@ p {
 
 .principal {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
 .lista {
+  display: flex;
+  flex-direction: column;
   height: 20vh;
   width: 60vw;
   margin: 0;
@@ -125,7 +131,30 @@ span {
 .icon:hover {
   cursor: pointer;
   /* box-shadow: #3d4c68 0px 0px 10px; */
-} 
+}
+
+/* contenedor */
+/* Oculta el portfolioSection por defecto */
+#portfolioSection {
+  display: none;
+  overflow-x: auto; /* Permite desplazamiento horizontal */
+  white-space: nowrap; /* Tarjetas en línea */
+  width: 100%; /* Ajuste al contenedor */
+  height: 100%; /* Ajuste al contenedor principal */
+  padding: 20px;
+}
+
+.card {
+  display: inline-block;
+  background-color: #fff;
+  margin-right: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Colores para México */
 strong p {
@@ -146,12 +175,12 @@ strong p {
 .r {
   color: red;
   border: 1px solid red;
-  padding: 1px
+  padding: 1px;
 }
 
 /* Responsive para la página  */
 
-@media only screen and (min-width: 144px) and (max-width: 649px){
+@media only screen and (min-width: 144px) and (max-width: 649px) {
   img {
     width: 250px;
   }
@@ -174,7 +203,7 @@ strong p {
   h1 {
     font-size: 2rem;
   }
-  p{
+  p {
     font-size: 1rem;
   }
   img {
@@ -182,7 +211,7 @@ strong p {
   }
   .icons {
     margin-left: 15px;
-  } 
+  }
   .principal {
     display: flex;
     flex-direction: column;
@@ -191,7 +220,6 @@ strong p {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1240px) {
-
   header {
     height: 10vh;
   }
@@ -221,7 +249,7 @@ strong p {
   }
 
   li {
-    margin:  25px;
+    margin: 25px;
   }
   img {
     width: 40%;
