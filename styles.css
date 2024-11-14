@@ -142,6 +142,26 @@ span {
   width: 100%; /* Ajuste al contenedor */
   height: 100%; /* Ajuste al contenedor principal */
   padding: 20px;
+  box-sizing: border-box;
+}
+
+#portfolioSection::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#portfolioSection::-webkit-scrollbar:horizontal {
+  height: 13px;
+}
+#portfolioSection::-webkit-scrollbar:vertical {
+  display: none;
+}
+
+
+
+#portfolioSection::-webkit-scrollbar-thumb {
+  background-color: #3d4c68;
+  border-radius: 20px;
+  border: 1px solid #f1f2f3;
 }
 
 .card {
@@ -149,12 +169,17 @@ span {
   background-color: #fff;
   margin-right: 10px;
   padding: 20px;
-  width: 200px;
+  width: 80%;
+  height: 90%;
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  white-space: normal;
 }
 
+.card img {
+  width: 200px;
+}
 
 /* Colores para México */
 strong p {
