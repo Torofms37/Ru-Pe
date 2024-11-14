@@ -78,7 +78,7 @@ p {
   z-index: 1; /* Asegura que el blur está sobre otros elementos de fondo */
 }
 
-/* From Uiverse.io by ke1221 */ 
+/* From Uiverse.io by ke1221 */
 #portfolioBtn {
   width: 210px;
   color: var(--secondary);
@@ -87,16 +87,15 @@ p {
   border-radius: 0.5em;
   background: #e8e8e8;
   cursor: pointer;
-  border: 1px solid #e8e8e8;
-  transition: all 0.3s;
-  box-shadow: inset 4px 4px 12px #7d7d7d, inset -4px -4px 12px #4f4f4f;
+  border: 1px solid var(--text);
+  box-shadow: 4px 4px 12px 5px;
 }
 
-#portfolioBtn:active {
-  color: var(--secondary);
-  box-shadow: 6px 6px 12px #393c3f, -6px -6px 12px #42454b;
+#portfolioBtn:hover {
+  background: var(--primary);
+  color: var(--bg);
+  transition: all 0.3s ease-in-out;
 }
-
 
 .portfolio {
   display: none;
@@ -125,7 +124,7 @@ p {
 }
 
 img {
-  width: 90%;
+  width: 400px;
 }
 
 .info {
@@ -141,7 +140,6 @@ span {
 .icons {
   height: 40px;
   display: flex;
-  width: 40px;
   margin-top: 10px;
 }
 
@@ -176,8 +174,6 @@ span {
 #portfolioSection::-webkit-scrollbar:vertical {
   display: none;
 }
-
-
 
 #portfolioSection::-webkit-scrollbar-thumb {
   background-color: var(--secondary);
@@ -225,6 +221,16 @@ strong p {
   padding: 1px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
 /* Responsive para la página  */
 
 @media only screen and (min-width: 144px) and (max-width: 649px) {
@@ -251,11 +257,9 @@ strong p {
     font-size: 1rem;
   }
   img {
-    width: 80%;
+    width: 250px;
   }
-  .icons {
-    margin-left: 15px;
-  }
+  
   .principal {
     display: flex;
     flex-direction: column;
@@ -274,8 +278,8 @@ strong p {
     height: 65vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    justify-content: center;
   }
 
   .info {
@@ -293,16 +297,11 @@ strong p {
   }
 
   img {
-    width: 40%;
+    width: 300px;
   }
   span {
-    margin-top: 100px;
     font-size: 1.2rem;
     font-weight: 400;
-  }
-
-  .icons {
-    width: 30px;
   }
   .principal {
     display: flex;
