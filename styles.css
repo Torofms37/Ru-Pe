@@ -242,9 +242,9 @@ footer {
 
 /* Responsive para la página  */
 
-@media only screen and (min-width: 144px) and (max-width: 649px) {
-  img {
-    width: 250px;
+@media only screen and (max-width: 649px) {
+  header {
+    height: 10vh;
   }
   .container {
     width: 70%;
@@ -263,10 +263,11 @@ footer {
     font-size: 2rem;
   }
   p {
+    margin-top: 20px;
     font-size: 1rem;
   }
   img {
-    width: 250px;
+    width: 170px;
   }
 
   .principal {
@@ -276,7 +277,7 @@ footer {
   }
 
   #portfolioBtn {
-    width: 90px;
+    width: 120px;
     font-size: 0.7rem;
   }
   .card img {
@@ -320,7 +321,7 @@ footer {
   }
 
   img {
-    width: 300px;
+    width: 225px;
   }
   span {
     font-size: 1.2rem;
