@@ -56,7 +56,7 @@ h1 {
 }
 
 p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 300;
   color: var(--text-light);
 }
@@ -176,9 +176,9 @@ span {
 }
 
 #portfolioSection::-webkit-scrollbar-thumb {
-  background-color: var(--secondary);
+  background-color: var(--bg);
   border-radius: 20px;
-  border: 1px solid var(--t);
+  border: 1px solid var(--primary);
 }
 
 .card {
@@ -193,10 +193,21 @@ span {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   white-space: normal;
   color: var(--bg);
+  overflow: hidden; 
+  display: inline-block;
+}
+
+.card p {
+  color: var(--bg);
+  font-size: 1.7rem;
 }
 
 .card img {
-  width: 300px;
+  width: 400px; 
+  height: 200px; 
+  object-fit: cover;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 /* Colores para México */
@@ -208,13 +219,11 @@ strong p {
   border: 1px solid green;
   padding: 1px;
 }
-
 .b {
   color: white;
   border: 1px solid white;
   padding: 1px;
 }
-
 .r {
   color: red;
   border: 1px solid red;
@@ -259,11 +268,25 @@ footer {
   img {
     width: 250px;
   }
-  
+
   .principal {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #portfolioBtn {
+    width: 90px;
+    font-size: 0.7rem;
+  }
+  .card img {
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  .card p {
+    font-size: 1.1rem;
   }
 }
 
@@ -307,5 +330,40 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .card img {
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  .card p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .card {
+    display: flex;
+    align-content: center;
+    width: 45%;
+    height: 80%;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .card img {
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    object-fit: none;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card p {
+    font-size: 1.5rem;
   }
 }
