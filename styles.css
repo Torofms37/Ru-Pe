@@ -195,6 +195,7 @@ span {
   color: var(--bg);
   overflow: hidden;
   display: inline-block;
+  align-content: space-between;
 }
 
 .card p {
@@ -281,7 +282,7 @@ footer {
     font-size: 0.7rem;
   }
   .card img {
-    width: 200px;
+    width: 180px;
     margin-bottom: 15px;
     margin-top: 15px;
     border-radius: 20px;
@@ -334,7 +335,8 @@ footer {
   }
 
   .card img {
-    width: 200px;
+    width: 400px;
+    height: 300px;
     margin-bottom: 15px;
     margin-top: 15px;
     border-radius: 20px;
@@ -355,10 +357,11 @@ footer {
     height: 80%;
     overflow: hidden;
     display: inline-block;
+    align-content: space-between;
   }
   .card img {
     border-radius: 15px;
-    width: 400px;
+    width: 330px;
     height: 200px;
     object-fit: none;
     margin-top: 10px;
