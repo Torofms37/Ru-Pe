@@ -61,6 +61,11 @@ p {
   color: var(--text-light);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   position: relative;
   width: 80vw;
