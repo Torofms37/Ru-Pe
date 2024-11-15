@@ -1,4 +1,4 @@
-# Primero proyecto final
+# Primer proyecto final
 
 Diseñé una página web únicamente con .html y css para este proyecto. Intente cumplir con las características y agregué otras para mejorar el mismo.
 
