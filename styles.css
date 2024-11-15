@@ -193,7 +193,7 @@ span {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   white-space: normal;
   color: var(--bg);
-  overflow: hidden; 
+  overflow: hidden;
   display: inline-block;
 }
 
@@ -203,8 +203,8 @@ span {
 }
 
 .card img {
-  width: 400px; 
-  height: 200px; 
+  width: 400px;
+  height: 200px;
   object-fit: cover;
   margin-bottom: 50px;
   margin-top: 20px;
@@ -360,7 +360,7 @@ footer {
     border-radius: 15px;
     width: 400px;
     height: 200px;
-    object-fit: none;    
+    object-fit: none;
     margin-top: 10px;
     margin-bottom: 10px;
   }
