@@ -3,7 +3,7 @@
   --text: #717978;
   --text-light: #e2e2e2;
   --primary: #00ffd4;
-  --quaternary: #00fffd;
+  --secondary: #00fffd;
   color: var(--primary);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
